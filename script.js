@@ -162,63 +162,63 @@ loadMemory();
 
 const memories = [
 {
-image: "images/foto1.jpn.png",
+image: "foto1.jpn.png",
 text: "Essa foto a gente tirou antes mesmo da gente se assumir publicamente. Nesse dia a gente passou um tempão ouvindo Yago Oproprio, deitados juntos, só se olhando e se beijando ❤️"
 },
 {
-image: "images/foto2.jpn.png",
+image: "foto2.jpn.png",
 text: "Nossa primeira foto juntos. Nesse dia a gente marcou de sair pro primeiro date sem nem saber pra onde ir kkkkk e acabou indo parar numa arcade 🎮❤️"
 },
 {
-image: "images/foto3.jpn.png",
+image: "foto3.jpn.png",
 text: "O dia em que eu convenci você a fazer skincare pela primeira vez. Diz você que nunca sofreu tanto na vida kkkkk"
 },
 {
-image: "images/foto4.jpn.png",
+image: "foto4.jpn.png",
 text: "Nosso primeiro Dia dos Namorados juntos. A gente decidiu tirar um monte de fotos, e essa é uma das mais bonitas porque você tá com um sorrisinho muito fofo ❤️"
 },
 {
-image: "images/foto5.jpn.png",
+image: "foto5.jpn.png",
 text: "Essa foto é muito aleatória kkkkk a gente tava em call e você percebeu que seu cabelo tava parecendo dois chifrinhos. A gente riu muito disso."
 },
 {
-image: "images/foto6.jpn.png",
+image: "foto6.jpn.png",
 text: "Esse dia a gente saiu e tava tirando foto numa ponte. O vento tava forte mais que tudo, mas o jeito que a gente tá se beijando ficou muito apaixonante ❤️"
 },
 {
-image: "images/foto7.jpn.png",
+image: "foto7.jpn.png",
 text: "Mesmo sendo uma foto bem zoada, a gente tá muito mídia kkkkk nesse dia a gente tava experimentando efeitos do Snapchat."
 },
 {
-image: "images/foto8.jpn.png",
+image: "foto8.jpn.png",
 text: "Esse dia foi loucura. Você foi doido o suficiente pra alisar meu cabelo mesmo sem nunca ter feito isso antes, e eu fui louca o suficiente pra confiar kkkkk. Mesmo sendo uma foto bem zoada, é uma das minhas favoritas ❤️"
 },
 {
-image: "images/foto9.jpn.png",
+image: "foto9.jpn.png",
 text: "A gente tava indo pra uma festa e você decidiu começar a tirar foto. Eu fui fazer graça com você e você foi morder meu braço kkkkk"
 },
 {
-image: "images/foto10.jpn.png",
+image: "foto10.jpn.png",
 text: "Eu tava voltando da sua casa e tava passando mal. Aí, pra me perturbar, você decidiu começar a tirar foto, mas eu não queria porque tava falando que tava feia. Mesmo assim, eu gosto dessa foto porque foi um dia bem marcante ❤️"
 },
 {
-image: "images/foto11.jpn.png",
+image: "foto11.jpn.png",
 text: "Esse dia a gente foi pro centro e depois ficou no parque. A gente conversou muito e teve um tempo só nosso. Foi maravilhoso ❤️"
 },
 {
-image: "images/foto12.jpn.png",
+image: "foto12.jpn.png",
 text: "Esse dia você foi me buscar no meu college. A gente ficou andando e depois foi de ônibus pra perto do seu serviço. A gente ficou lá fazendo vários nada, mas foi muito bom. E essa foto é muito fofa ❤️"
 },
 {
-image: "images/foto13.jpn.png",
+image: "foto13.jpn.png",
 text: "Esse dia eu inventei de te encher de marca de batom. Foi muito divertido e você ficou um fofo assim 💋❤️"
 },
 {
-image: "images/foto14.jpn.png",
+image: "foto14.jpn.png",
 text: "Esse dia eu entreguei seus presentes de Natal. Eu comprei macacão combinando pra gente, e essa foto ficou extremamente fofa e linda ❤️"
 },
 {
-image: "images/foto15.jpn.png",
+image: "foto15.jpn.png",
 text: "Nessa foto você tava dormindo no meu peito. Eu tenho um monte de foto assim porque você ama dormir desse jeito, e eu amo tirar foto kkkkk. A gente tava muito fofo aí ❤️"
 }
 ];
