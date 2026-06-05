@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Mission: Level 20 Unlocked</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section id="homeScreen" class="screen active">
+<div class="player-card">
+<p>PLAYER DETECTED...</p>
+
+<p>
+PLAYER NAME:<br>
+<span>Amor da minha vida ❤️</span>
+</p>
+
+<p>
+CURRENT LEVEL:<br>
+<span class="level">19</span>
+</p>
+
+<p>LEVEL UP AVAILABLE...</p>
+<div class="pixel-heart">♥</div>
+</div>
+
+<h1>🎮 LEVEL 20 UNLOCKED ⚡</h1>
+
+<p class="subtitle">
+Parabéns, meu amor.<br>
+Uma nova missão foi desbloqueada.
+</p>
+
+<button onclick="showMission()">♡ Iniciar Missão</button>
+</section>
+
+<audio id="bgMusic" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+
+<section id="missionScreen" class="screen">
+<div class="mission-box">
+<h2>🎯 MISSÃO PRINCIPAL</h2>
+
+<p><strong>Objetivo:</strong><br>Completar 20 anos.</p>
+
+<p><strong>Recompensas:</strong></p>
+
+<ul>
+<li>🏆 Memórias desbloqueadas</li>
+<li>💌 Cartas secretas</li>
+<li>🎮 Desafios especiais</li>
+<li>❤️ Muito amor</li>
+<li>🎁 Surpresa final</li>
+</ul>
+
+<p class="progress-title">Progresso da missão</p>
+<div class="progress-bar">
+<div class="progress-fill"></div>
+</div>
+<p>0%</p>
+
+<button onclick="startQuiz()">🚀 Começar Jornada</button>
+</div>
+</section>
+
+
+<section id="quizScreen" class="screen">
+<div class="quiz-box">
+<h2>🎮 Fase 1 — Você me conhece mesmo?</h2>
+
+<p id="questionText"></p>
+
+<div id="answerButtons"></div>
+
+<p id="quizMessage"></p>
+
+<p id="scoreText">XP: 0 ❤️</p>
+</div>
+</section>
+
+<section id="memoriesScreen" class="screen">
+<div class="memory-box">
+<h2>📸 Memórias Desbloqueadas</h2>
+
+<div id="memoryContent"></div>
+
+<button onclick="nextMemory()">
+❤️ Próxima Memória
+</button>
+</div>
+</section>
+
+<section id="lettersScreen" class="screen">
+<div class="memory-box">
+<h2>💌 Cartas Secretas</h2>
+<p class="memory-text">Escolha uma cartinha para abrir, meu amor.</p>
+
+<button onclick="openLetter(0)">💌 Abra quando tiver saudade</button>
+<button onclick="openLetter(1)">💌 Abra quando estiver triste</button>
+<button onclick="openLetter(2)">💌 Abra quando quiser lembrar que eu te amo</button>
+
+<div id="letterContent"></div>
+
+<button onclick="showFinalLetter()">🎁 Recompensa Final</button>
+</div>
+</section>
+
+
+<section id="finalScreen" class="screen">
+<div class="memory-box">
+<h2>🎁 Recompensa Final</h2>
+<div id="finalLetter" class="letter-card"></div>
+</div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
