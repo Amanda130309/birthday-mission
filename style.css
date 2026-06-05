@@ -16,7 +16,7 @@ position: fixed;
 inset: 0;
 background:
 linear-gradient(rgba(0, 0, 0, 0.72), rgba(20, 0, 0, 0.80)),
-url("images/race-track.jpg");
+url("race-track.jpg");
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
