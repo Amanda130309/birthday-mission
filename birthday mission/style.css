@@ -1,0 +1,265 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+color: white;
+background: #050000;
+overflow-x: hidden;
+}
+
+body::before {
+content: "";
+position: fixed;
+inset: 0;
+background:
+linear-gradient(rgba(0, 0, 0, 0.72), rgba(20, 0, 0, 0.80)),
+url("images/race-track.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+z-index: -3;
+}
+
+body::after {
+content: "🏁";
+position: fixed;
+inset: 0;
+color: rgba(255, 0, 0, 0.65);
+font-size: 50px;
+letter-spacing: 35px;
+line-height: 160px;
+z-index: -2;
+text-shadow: 0 0 15px red;
+opacity: 0.35;
+}
+
+.screen {
+min-height: 100vh;
+display: none;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+padding: 30px;
+}
+
+.screen.active {
+display: flex;
+}
+
+.player-card {
+border: 3px solid #ff3b3b;
+border-radius: 30px;
+padding: 35px;
+width: 360px;
+max-width: 90%;
+background: rgba(0, 0, 0, 0.65);
+box-shadow: 0 0 25px #ff1a1a, inset 0 0 20px #300;
+margin-bottom: 35px;
+font-family: "Courier New", monospace;
+animation: glow 1.5s infinite alternate;
+}
+
+.player-card p {
+font-size: 20px;
+margin: 18px 0;
+}
+
+.player-card span {
+color: white;
+}
+
+.level {
+color: #ff1a1a !important;
+font-size: 28px;
+font-weight: bold;
+}
+
+.pixel-heart {
+color: white;
+font-size: 25px;
+}
+
+h1 {
+font-size: 58px;
+color: red;
+text-shadow: 0 0 25px red;
+margin: 10px 0;
+}
+
+.subtitle {
+font-size: 24px;
+line-height: 1.5;
+}
+
+button {
+margin-top: 25px;
+padding: 17px 38px;
+border: none;
+border-radius: 12px;
+background: red;
+color: white;
+font-size: 20px;
+cursor: pointer;
+box-shadow: 0 0 20px red;
+transition: 0.2s;
+}
+
+button:hover {
+transform: scale(1.06);
+}
+
+.mission-box {
+width: 600px;
+max-width: 92%;
+padding: 35px;
+border: 3px solid #ff3131;
+border-radius: 25px;
+background: rgba(0, 0, 0, 0.75);
+box-shadow: 0 0 30px red;
+}
+
+.mission-box h2 {
+font-size: 38px;
+color: #ff3131;
+text-shadow: 0 0 18px red;
+}
+
+.mission-box p,
+.mission-box li {
+font-size: 20px;
+line-height: 1.6;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+.progress-title {
+margin-top: 30px;
+}
+
+.progress-bar {
+width: 100%;
+height: 25px;
+background: #260000;
+border-radius: 20px;
+border: 2px solid red;
+overflow: hidden;
+}
+
+.progress-fill {
+width: 0%;
+height: 100%;
+background: red;
+box-shadow: 0 0 15px red;
+}
+
+@keyframes glow {
+from {
+box-shadow: 0 0 18px #ff1a1a, inset 0 0 10px #300;
+}
+
+to {
+box-shadow: 0 0 35px #ff1a1a, inset 0 0 25px #600;
+}
+}
+.quiz-box {
+width: 700px;
+max-width: 92%;
+padding: 35px;
+border: 3px solid #ff3131;
+border-radius: 25px;
+background: rgba(0, 0, 0, 0.78);
+box-shadow: 0 0 30px red;
+}
+
+.quiz-box h2 {
+color: #ff3131;
+text-shadow: 0 0 18px red;
+}
+
+#questionText {
+font-size: 24px;
+margin: 25px 0;
+}
+
+#answerButtons {
+display: flex;
+flex-direction: column;
+gap: 14px;
+}
+
+.answer-btn {
+margin-top: 0;
+background: #220000;
+border: 2px solid #ff3131;
+}
+
+.answer-btn:hover {
+background: #ff3131;
+}
+
+#quizMessage {
+min-height: 35px;
+font-size: 20px;
+margin-top: 20px;
+}
+
+#scoreText {
+color: #ffb3b3;
+font-size: 20px;
+}
+.quiz-box {
+}
+
+.memory-box {
+width: 750px;
+max-width: 92%;
+padding: 30px;
+border: 3px solid #ff3131;
+border-radius: 25px;
+background: rgba(0, 0, 0, 0.78);
+box-shadow: 0 0 30px red;
+}
+
+.memory-box h2 {
+color: #ff3131;
+text-shadow: 0 0 18px red;
+}
+
+.memory-photo {
+width: 100%;
+max-height: 430px;
+object-fit: contain;
+border-radius: 18px;
+border: 2px solid #ff3131;
+box-shadow: 0 0 18px red;
+margin: 20px 0;
+}
+
+.memory-text {
+font-size: 20px;
+line-height: 1.5;
+}
+
+.memory-count {
+color: #ffb3b3;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.letter-card {
+margin-top: 25px;
+padding: 25px;
+border: 2px solid #ff3131;
+border-radius: 18px;
+background: rgba(255, 0, 0, 0.10);
+box-shadow: 0 0 18px red;
+font-size: 20px;
+line-height: 1.6;
+}
